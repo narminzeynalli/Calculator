@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon of page -->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.jpg">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/sass/style.css">
+
+    <!-- title -->
+    <title>Calculator</title>
+</head>
+<body>
+    
+    <!-- main content start -->
+    <div class="main-content-container">
+        <div class="calculator">
+            <div class="input">
+                <div class="previous-input" data-previous-input></div>
+                <div class="current-input" data-current-input></div>
+            </div>
+
+            <div class="buttons">
+                <button class="all-clear" data-all-clear>C</button>
+                <button class="delete" data-delete><i class="fa-solid fa-delete-left"></i></button>
+                <button class="clear-end" data-clear-end>CE</button>
+                <button class="operator" data-operator>&divide;</button>
+    
+                <button class="number" data-number>7</button>
+                <button class="number" data-number>8</button>
+                <button class="number" data-number>9</button>
+                <button class="operator" data-operator>x</button>
+    
+                <button class="number" data-number>4</button>
+                <button class="number" data-number>5</button>
+                <button class="number" data-number>6</button>
+                <button class="operator" data-operator>-</button>
+    
+                <button class="number" data-number>1</button>
+                <button class="number" data-number>2</button>
+                <button class="number" data-number>3</button>
+                <button class="operator" data-operator>+</button>
+    
+                <button class="decimal" data-decimal>.</button>
+                <button class="number" data-number>0</button>
+                <button class="number" data-number>π</button>
+                <button class="equals" data-equals>=</button>
+            </div>
+        </div>
+    </div>
+    <!-- main content end -->
+
+
+    <!-- js link -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+html {
+  font-size: 10px;
+}
+html body .main-content-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../img/background.jpg") no-repeat top/cover;
+}
+html body .main-content-container .calculator {
+  background-color: #000;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+html body .main-content-container .calculator .input {
+  width: 36rem;
+  min-height: 12rem;
+  color: #ccc;
+  word-wrap: break-word;
+  word-break: break-all;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 1rem;
+}
+html body .main-content-container .calculator .input .current-input {
+  font-size: 3rem;
+}
+html body .main-content-container .calculator .input .previous-input {
+  font-size: 1.5rem;
+  color: rgb(178, 175, 175);
+}
+html body .main-content-container .calculator .buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+html body .main-content-container .calculator .buttons button {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: #ccc;
+  background-color: #3b3b3b;
+  border: 1px solid #000;
+  transition: border 0.2s ease;
+  cursor: pointer;
+}
+html body .main-content-container .calculator .buttons button.all-clear, html body .main-content-container .calculator .buttons button.delete, html body .main-content-container .calculator .buttons button.clear-end {
+  color: #ff0505;
+}
+html body .main-content-container .calculator .buttons button.equals {
+  background-color: #ccc;
+  color: #000;
+}
+html body .main-content-container .calculator .buttons button:hover {
+  background-color: #636363;
+}/*# sourceMappingURL=style.css.map */
